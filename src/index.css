@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fb;
+  margin: 0;
+}
+
+/* Container */
+.container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Search */
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th {
+  background: #4f46e5;
+  color: white;
+  padding: 12px;
+  cursor: pointer;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+  background: #f1f5ff;
+}
+
+/* Detail Card */
+.detail-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #4f46e5;
+}
